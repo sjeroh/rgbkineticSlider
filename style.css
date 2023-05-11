@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+
+section{
+  position: relative;
+  /* top: 100px;
+  left: 100px; */
+  height: 100vh;
+}
+section .rgb{
+  /* position: absolute; */
+  /* left: 20%;
+  right: 20%; */
+  /* height: 800px;
+  width: 800px; */
+}
+#rgbKineticSlider canvas{
+  position: absolute;
+}
+
+nav{
+  font-size: 80px;
+}
+nav .main-nav{
+  color: #f1f1f1;
+  text-decoration: none;
+  position: absolute;
+  top: 70%;
+
+}
+
+nav .next{
+  right: 10%;
+}
+nav .prev{
+  left: 10%;
+}
